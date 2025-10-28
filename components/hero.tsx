@@ -17,7 +17,7 @@ export default function Hero() {
 
 
             <motion.div initial={{ scale: 0.96, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6 }} className="w-44 h-44 rounded-2xl overflow-hidden bg-surface flex-shrink-0 shadow-soft">
-                <Image src="/placeholder.jpg" alt="Foto" width={176} height={176} />
+                <Image src="/fotoeu.jpeg" alt="Foto" width={176} height={176} />
             </motion.div>
         </div>
     )
