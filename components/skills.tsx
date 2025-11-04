@@ -1,7 +1,7 @@
 "use client"
 import { motion } from 'framer-motion'
 import { FaJava } from 'react-icons/fa'
-import { SiReact, SiNextdotjs, SiNodedotjs, SiLaravel, SiTypescript, SiTailwindcss, SiPython, SiPostgresql, SiMysql, SiGit } from 'react-icons/si'
+import { SiReact, SiNextdotjs, SiNodedotjs, SiLaravel, SiTypescript, SiTailwindcss, SiPython, SiPostgresql, SiMysql, SiGit, SiDotnet } from 'react-icons/si'
 
 const skills = [
     { name: 'React', icon: SiReact },
@@ -11,6 +11,7 @@ const skills = [
     { name: 'TypeScript', icon: SiTypescript },
     { name: 'Tailwind', icon: SiTailwindcss },
     { name: 'Python', icon: SiPython },
+    { name: '.NET', icon: SiDotnet },
     { name: 'Java', icon: FaJava },
     { name: 'PostgreSQL', icon: SiPostgresql },
     { name: 'MySQL', icon: SiMysql },
@@ -31,7 +32,7 @@ export default function Skills() {
                 <motion.div
                     className="flex gap-6"
                     animate={{ x: ['0%', '-50%'] }}
-                    transition={{ duration: 20, ease: 'linear', repeat: Infinity }}
+                    transition={{ duration: 15, ease: 'linear', repeat: Infinity }}
                 >
                     {[...skills, ...skills].map((skill, i) => {
                         const Icon = skill.icon

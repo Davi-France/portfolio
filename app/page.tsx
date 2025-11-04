@@ -1,8 +1,9 @@
 import About from "@/components/about";
 import Contact from "@/components/contact";
 import { Experience } from "@/components/experience";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
-import { Projects } from "@/components/projects";
+import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 
 
@@ -26,6 +27,9 @@ export default function Page() {
       </section>
       <section id="contact" className="pt-24">
         <Contact />
+      </section>
+      <section id="footer" className="pt-24">
+        <Footer />
       </section>
     </>
   )
