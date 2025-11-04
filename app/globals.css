@@ -81,4 +81,8 @@ html {
   .container {
     max-width: 72rem;
   }
+
+  body {
+    color: #0c1017;
+  }
 }
