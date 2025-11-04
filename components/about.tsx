@@ -1,7 +1,6 @@
 "use client"
 import { motion } from 'framer-motion'
 
-
 export default function About() {
     return (
         <motion.div initial={{ y: 12, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>

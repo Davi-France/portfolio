@@ -76,13 +76,10 @@ html {
 }
 
 
-/* responssivo */
 @media (min-width: 768px) {
   .container {
     max-width: 72rem;
+    color: rgb(var(--text)) !important;
   }
 
-  body {
-    color: #0c1017;
-  }
 }
